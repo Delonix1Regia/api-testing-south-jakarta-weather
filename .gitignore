@@ -2,8 +2,6 @@
 
 bin
 
-Reports
-
 Libs
 
 output
@@ -21,4 +19,6 @@ build
 *.tmp
 
 settings/internal/
-Profiles/
+Profiles/*.glbl
+
+!Profiles/*.glbl.example
