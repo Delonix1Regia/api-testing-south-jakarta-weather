@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-03-22T15:07:52.869538Z</date>
+  <millis>1774192072869</millis>
+  <nanos>538000</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_OpenWeather</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">TS_OpenWeather</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_OpenWeather</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:52.887993Z</date>
+  <millis>1774192072887</millis>
+  <nanos>993000</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Diah AR</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Diah AR</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:52.888992Z</date>
+  <millis>1774192072888</millis>
+  <nanos>992000</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = Air Polution South Jakarta</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">Air Polution South Jakarta</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:52.888992Z</date>
+  <millis>1774192072888</millis>
+  <nanos>992000</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = jaeje - Tyuei9</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">jaeje - Tyuei9</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:52.889990300Z</date>
+  <millis>1774192072889</millis>
+  <nanos>990300</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:52.889990300Z</date>
+  <millis>1774192072889</millis>
+  <nanos>990300</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.12</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.12</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:52.889990300Z</date>
+  <millis>1774192072889</millis>
+  <nanos>990300</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.4.3.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.4.3.0</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:53.347799500Z</date>
+  <millis>1774192073347</millis>
+  <nanos>799500</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC01_Success_Get_Forecast</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/TC01_Success_Get_Forecast</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TC01_Success_Get_Forecast</property>
+  <property name="source">C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Test Cases\TC01_Success_Get_Forecast.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:53.649972600Z</date>
+  <millis>1774192073649</millis>
+  <nanos>972600</nanos>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Object Repository/weather forecast/get_5_days_forecast&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">5</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:54.923973300Z</date>
+  <millis>1774192074923</millis>
+  <nanos>973300</nanos>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_5_days_forecast_0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">8d287d6d-9beb-4981-992b-fcdf73233d17</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:54.927284500Z</date>
+  <millis>1774192074927</millis>
+  <nanos>284500</nanos>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>cURL Command:
+curl \
+  --location \
+  &amp;apos;https://api.openweathermap.org/data/2.5/forecast?lat=-6.2615&amp;amp;lon=106.8106&amp;amp;appid=aa9cecec70ccc07037dca6f0f96a8b9b&amp;amp;units=metric&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">8d287d6d-9beb-4981-992b-fcdf73233d17</property>
+  <property name="curlCommand">curl --location &apos;https://api.openweathermap.org/data/2.5/forecast?lat=-6.2615&amp;lon=106.8106&amp;appid=aa9cecec70ccc07037dca6f0f96a8b9b&amp;units=metric&apos;</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.003512900Z</date>
+  <millis>1774192075003</millis>
+  <nanos>512900</nanos>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.005515200Z</date>
+  <millis>1774192075005</millis>
+  <nanos>515200</nanos>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Object Repository/weather forecast/get_5_days_forecast&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.005515200Z</date>
+  <millis>1774192075005</millis>
+  <nanos>515200</nanos>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">7</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.021690Z</date>
+  <millis>1774192075021</millis>
+  <nanos>690000</nanos>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.024200600Z</date>
+  <millis>1774192075024</millis>
+  <nanos>200600</nanos>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.024200600Z</date>
+  <millis>1774192075024</millis>
+  <nanos>200600</nanos>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : json = JsonSlurper().parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">8</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.054186500Z</date>
+  <millis>1774192075054</millis>
+  <nanos>186500</nanos>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : json = JsonSlurper().parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.054186500Z</date>
+  <millis>1774192075054</millis>
+  <nanos>186500</nanos>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert list.size() == 40</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">9</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.065014800Z</date>
+  <millis>1774192075065</millis>
+  <nanos>14800</nanos>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert list.size() == 40</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.066146400Z</date>
+  <millis>1774192075066</millis>
+  <nanos>146400</nanos>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : validateJsonAgainstSchema(response, &amp;quot;{&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;, &amp;quot;required&amp;quot;: [&amp;quot;list&amp;quot;, &amp;quot;city&amp;quot;]}&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">11</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.207842100Z</date>
+  <millis>1774192075207</millis>
+  <nanos>842100</nanos>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Validate with JSON Schema successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.ValidateWithJsonSchema.validateWithJsonSchema</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.207842100Z</date>
+  <millis>1774192075207</millis>
+  <nanos>842100</nanos>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : validateJsonAgainstSchema(response, &amp;quot;{&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;, &amp;quot;required&amp;quot;: [&amp;quot;list&amp;quot;, &amp;quot;city&amp;quot;]}&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.207842100Z</date>
+  <millis>1774192075207</millis>
+  <nanos>842100</nanos>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC01_Success_Get_Forecast</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.209334Z</date>
+  <millis>1774192075209</millis>
+  <nanos>334000</nanos>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC01_Success_Get_Forecast</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{
+  &quot;WS.validateJsonAgainstSchema&quot;: 1,
+  &quot;WS.sendRequest&quot;: 1,
+  &quot;WS.verifyResponseStatusCode&quot;: 1
+}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.214700400Z</date>
+  <millis>1774192075214</millis>
+  <nanos>700400</nanos>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC02_Success_Get_Air_Pollution</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/TC02_Success_Get_Air_Pollution</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TC02_Success_Get_Air_Pollution</property>
+  <property name="source">C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Test Cases\TC02_Success_Get_Air_Pollution.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.273515Z</date>
+  <millis>1774192075273</millis>
+  <nanos>515000</nanos>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Object Repository/weather forecast/get_air_polution&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">5</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.542463800Z</date>
+  <millis>1774192075542</millis>
+  <nanos>463800</nanos>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_air_polution_1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">e40d9690-f9f6-4399-a439-89f62a7c1a18</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.543390400Z</date>
+  <millis>1774192075543</millis>
+  <nanos>390400</nanos>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>cURL Command:
+curl \
+  --location \
+  &amp;apos;https://api.openweathermap.org/data/2.5/air_pollution?lat=-6.2615&amp;amp;lon=106.8106&amp;amp;appid=aa9cecec70ccc07037dca6f0f96a8b9b&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">e40d9690-f9f6-4399-a439-89f62a7c1a18</property>
+  <property name="curlCommand">curl --location &apos;https://api.openweathermap.org/data/2.5/air_pollution?lat=-6.2615&amp;lon=106.8106&amp;appid=aa9cecec70ccc07037dca6f0f96a8b9b&apos;</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.547595300Z</date>
+  <millis>1774192075547</millis>
+  <nanos>595300</nanos>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.548596800Z</date>
+  <millis>1774192075548</millis>
+  <nanos>596800</nanos>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Object Repository/weather forecast/get_air_polution&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.549600100Z</date>
+  <millis>1774192075549</millis>
+  <nanos>600100</nanos>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">7</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.552699700Z</date>
+  <millis>1774192075552</millis>
+  <nanos>699700</nanos>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.554330200Z</date>
+  <millis>1774192075554</millis>
+  <nanos>330200</nanos>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.554330200Z</date>
+  <millis>1774192075554</millis>
+  <nanos>330200</nanos>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : json = JsonSlurper().parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">9</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.556635900Z</date>
+  <millis>1774192075556</millis>
+  <nanos>635900</nanos>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : json = JsonSlurper().parseText(response.getResponseText())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.556635900Z</date>
+  <millis>1774192075556</millis>
+  <nanos>635900</nanos>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : aqi = aqi</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">10</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.564879500Z</date>
+  <millis>1774192075564</millis>
+  <nanos>879500</nanos>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : aqi = aqi</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.565879600Z</date>
+  <millis>1774192075565</millis>
+  <nanos>879600</nanos>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert aqi &amp;gt;= 1 &amp;amp;&amp;amp; aqi &amp;lt;= 5</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">11</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.568183200Z</date>
+  <millis>1774192075568</millis>
+  <nanos>183200</nanos>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert aqi &amp;gt;= 1 &amp;amp;&amp;amp; aqi &amp;lt;= 5</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.568183200Z</date>
+  <millis>1774192075568</millis>
+  <nanos>183200</nanos>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, &amp;quot;coord.lat&amp;quot;, -6.2615)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">13</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.601658100Z</date>
+  <millis>1774192075601</millis>
+  <nanos>658100</nanos>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.602670Z</date>
+  <millis>1774192075602</millis>
+  <nanos>670000</nanos>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, &amp;quot;coord.lat&amp;quot;, -6.2615)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.603720Z</date>
+  <millis>1774192075603</millis>
+  <nanos>720000</nanos>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, &amp;quot;coord.lon&amp;quot;, 106.8106)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">14</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.626707400Z</date>
+  <millis>1774192075626</millis>
+  <nanos>707400</nanos>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.628765800Z</date>
+  <millis>1774192075628</millis>
+  <nanos>765800</nanos>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, &amp;quot;coord.lon&amp;quot;, 106.8106)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.628765800Z</date>
+  <millis>1774192075628</millis>
+  <nanos>765800</nanos>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : validateJsonAgainstSchema(response, &amp;quot;{&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;, &amp;quot;required&amp;quot;: [&amp;quot;coord&amp;quot;, &amp;quot;list&amp;quot;]}&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">16</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.632626500Z</date>
+  <millis>1774192075632</millis>
+  <nanos>626500</nanos>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Validate with JSON Schema successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.ValidateWithJsonSchema.validateWithJsonSchema</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.633132900Z</date>
+  <millis>1774192075633</millis>
+  <nanos>132900</nanos>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : validateJsonAgainstSchema(response, &amp;quot;{&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;, &amp;quot;required&amp;quot;: [&amp;quot;coord&amp;quot;, &amp;quot;list&amp;quot;]}&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.633132900Z</date>
+  <millis>1774192075633</millis>
+  <nanos>132900</nanos>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC02_Success_Get_Air_Pollution</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.634143100Z</date>
+  <millis>1774192075634</millis>
+  <nanos>143100</nanos>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC02_Success_Get_Air_Pollution</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{
+  &quot;WS.validateJsonAgainstSchema&quot;: 1,
+  &quot;WS.verifyElementPropertyValue&quot;: 2,
+  &quot;WS.sendRequest&quot;: 1,
+  &quot;WS.verifyResponseStatusCode&quot;: 1
+}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.637226200Z</date>
+  <millis>1774192075637</millis>
+  <nanos>226200</nanos>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC03_Failed_with_Invalid_API_Key</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/TC03_Failed_with_Invalid_API_Key</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TC03_Failed_with_Invalid_API_Key</property>
+  <property name="source">C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Test Cases\TC03_Failed_with_Invalid_API_Key.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.668651500Z</date>
+  <millis>1774192075668</millis>
+  <nanos>651500</nanos>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Object Repository/weather forecast/get_weather_invalid_key&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">4</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.739875500Z</date>
+  <millis>1774192075739</millis>
+  <nanos>875500</nanos>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_weath...lid_key_2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">27989f93-17d9-4ee7-aa86-79530d311783</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.739875500Z</date>
+  <millis>1774192075739</millis>
+  <nanos>875500</nanos>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>cURL Command:
+curl \
+  --location \
+  &amp;apos;https://api.openweathermap.org/data/2.5/forecast?lat=-6.2615&amp;amp;lon=106.8106&amp;amp;appid=ab9cecec70ccc07037dca6f0f96a8b9b&amp;amp;units=metric&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">27989f93-17d9-4ee7-aa86-79530d311783</property>
+  <property name="curlCommand">curl --location &apos;https://api.openweathermap.org/data/2.5/forecast?lat=-6.2615&amp;lon=106.8106&amp;appid=ab9cecec70ccc07037dca6f0f96a8b9b&amp;units=metric&apos;</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.741874600Z</date>
+  <millis>1774192075741</millis>
+  <nanos>874600</nanos>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.743387700Z</date>
+  <millis>1774192075743</millis>
+  <nanos>387700</nanos>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Object Repository/weather forecast/get_weather_invalid_key&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.743387700Z</date>
+  <millis>1774192075743</millis>
+  <nanos>387700</nanos>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 401)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">6</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.745936Z</date>
+  <millis>1774192075745</millis>
+  <nanos>936000</nanos>
+  <sequence>86</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.747935400Z</date>
+  <millis>1774192075747</millis>
+  <nanos>935400</nanos>
+  <sequence>87</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 401)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.747935400Z</date>
+  <millis>1774192075747</millis>
+  <nanos>935400</nanos>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, &amp;quot;message&amp;quot;, &amp;quot;Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">8</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.771544700Z</date>
+  <millis>1774192075771</millis>
+  <nanos>544700</nanos>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.771544700Z</date>
+  <millis>1774192075771</millis>
+  <nanos>544700</nanos>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, &amp;quot;message&amp;quot;, &amp;quot;Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.771544700Z</date>
+  <millis>1774192075771</millis>
+  <nanos>544700</nanos>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC03_Failed_with_Invalid_API_Key</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.772575700Z</date>
+  <millis>1774192075772</millis>
+  <nanos>575700</nanos>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC03_Failed_with_Invalid_API_Key</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{
+  &quot;WS.verifyElementPropertyValue&quot;: 1,
+  &quot;WS.sendRequest&quot;: 1,
+  &quot;WS.verifyResponseStatusCode&quot;: 1
+}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.775698900Z</date>
+  <millis>1774192075775</millis>
+  <nanos>698900</nanos>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC04_Failed_with_Invalid_Coordinates</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/TC04_Failed_with_Invalid_Coordinates</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/TC04_Failed_with_Invalid_Coordinates</property>
+  <property name="source">C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Test Cases\TC04_Failed_with_Invalid_Coordinates.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.808857500Z</date>
+  <millis>1774192075808</millis>
+  <nanos>857500</nanos>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Object Repository/weather forecast/get_weather_invalid_coor&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">4</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.896161300Z</date>
+  <millis>1774192075896</millis>
+  <nanos>161300</nanos>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_weath...id_coor_3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">0b28c5f5-ba80-4b41-9200-3410ed092c4e</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.897184200Z</date>
+  <millis>1774192075897</millis>
+  <nanos>184200</nanos>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>cURL Command:
+curl \
+  --location \
+  &amp;apos;https://api.openweathermap.org/data/2.5/forecast?lat=6789&amp;amp;lon=9192&amp;amp;appid=aa9cecec70ccc07037dca6f0f96a8b9b&amp;amp;units=metric&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">0b28c5f5-ba80-4b41-9200-3410ed092c4e</property>
+  <property name="curlCommand">curl --location &apos;https://api.openweathermap.org/data/2.5/forecast?lat=6789&amp;lon=9192&amp;appid=aa9cecec70ccc07037dca6f0f96a8b9b&amp;units=metric&apos;</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.898218100Z</date>
+  <millis>1774192075898</millis>
+  <nanos>218100</nanos>
+  <sequence>103</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.900372600Z</date>
+  <millis>1774192075900</millis>
+  <nanos>372600</nanos>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Object Repository/weather forecast/get_weather_invalid_coor&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.900372600Z</date>
+  <millis>1774192075900</millis>
+  <nanos>372600</nanos>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">6</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.903416600Z</date>
+  <millis>1774192075903</millis>
+  <nanos>416600</nanos>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.904439200Z</date>
+  <millis>1774192075904</millis>
+  <nanos>439200</nanos>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.904439200Z</date>
+  <millis>1774192075904</millis>
+  <nanos>439200</nanos>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, &amp;quot;message&amp;quot;, &amp;quot;wrong latitude&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">9</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.924126200Z</date>
+  <millis>1774192075924</millis>
+  <nanos>126200</nanos>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.925561200Z</date>
+  <millis>1774192075925</millis>
+  <nanos>561200</nanos>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, &amp;quot;message&amp;quot;, &amp;quot;wrong latitude&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.925561200Z</date>
+  <millis>1774192075925</millis>
+  <nanos>561200</nanos>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC04_Failed_with_Invalid_Coordinates</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.926945300Z</date>
+  <millis>1774192075926</millis>
+  <nanos>945300</nanos>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC04_Failed_with_Invalid_Coordinates</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{
+  &quot;WS.verifyElementPropertyValue&quot;: 1,
+  &quot;WS.sendRequest&quot;: 1,
+  &quot;WS.verifyResponseStatusCode&quot;: 1
+}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-03-22T15:07:55.985769900Z</date>
+  <millis>1774192075985</millis>
+  <nanos>769900</nanos>
+  <sequence>117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_OpenWeather</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

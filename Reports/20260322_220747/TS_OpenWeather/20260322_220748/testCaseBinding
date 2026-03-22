@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/TC01_Success_Get_Forecast","testCaseId":"Test Cases/TC01_Success_Get_Forecast","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC02_Success_Get_Air_Pollution","testCaseId":"Test Cases/TC02_Success_Get_Air_Pollution","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC03_Failed_with_Invalid_API_Key","testCaseId":"Test Cases/TC03_Failed_with_Invalid_API_Key","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC04_Failed_with_Invalid_Coordinates","testCaseId":"Test Cases/TC04_Failed_with_Invalid_Coordinates","iterationVariableName":""}

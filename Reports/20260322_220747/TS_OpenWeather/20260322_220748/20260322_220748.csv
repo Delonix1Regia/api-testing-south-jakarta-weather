@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_OpenWeather,,,,22-03-2026 22:07:52,22-03-2026 22:07:55,3.116s,PASSED
+,,,,,,,
+Test Cases/TC01_Success_Get_Forecast,,,,22-03-2026 22:07:53,22-03-2026 22:07:55,1.862s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/weather forecast/get_5_days_forecast""))",,,,22-03-2026 22:07:53,22-03-2026 22:07:55,1.356s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.019s,PASSED
+json = JsonSlurper().parseText(response.getResponseText()),,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.030s,PASSED
+assert list.size() == 40,,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.011s,PASSED
+"validateJsonAgainstSchema(response, ""{""type"": ""object"", ""required"": [""list"", ""city""]}"")",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.141s,PASSED
+,,,,,,,
+Test Cases/TC02_Success_Get_Air_Pollution,,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.420s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/weather forecast/get_air_polution""))",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.275s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.005s,PASSED
+json = JsonSlurper().parseText(response.getResponseText()),,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.002s,PASSED
+aqi = aqi,,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.008s,PASSED
+assert aqi >= 1 && aqi <= 5,,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.003s,PASSED
+"verifyElementPropertyValue(response, ""coord.lat"", -6.2615)",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.034s,PASSED
+"verifyElementPropertyValue(response, ""coord.lon"", 106.8106)",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.025s,PASSED
+"validateJsonAgainstSchema(response, ""{""type"": ""object"", ""required"": [""coord"", ""list""]}"")",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.005s,PASSED
+,,,,,,,
+Test Cases/TC03_Failed_with_Invalid_API_Key,,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.135s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/weather forecast/get_weather_invalid_key""))",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.075s,PASSED
+"verifyResponseStatusCode(response, 401)",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.004s,PASSED
+"verifyElementPropertyValue(response, ""message"", ""Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."")",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.024s,PASSED
+,,,,,,,
+Test Cases/TC04_Failed_with_Invalid_Coordinates,,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.151s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/weather forecast/get_weather_invalid_coor""))",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.092s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.004s,PASSED
+"verifyElementPropertyValue(response, ""message"", ""wrong latitude"")",,,,22-03-2026 22:07:55,22-03-2026 22:07:55,0.021s,PASSED

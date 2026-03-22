@@ -1,0 +1,63 @@
+2026-03-22 22:07:52.064 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\jaeje\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-03-22 22:07:52.068 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Include\config\log.properties
+2026-03-22 22:07:52.809 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_OpenWeather
+2026-03-22 22:07:52.887 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Diah AR
+2026-03-22 22:07:52.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Air Polution South Jakarta
+2026-03-22 22:07:52.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = jaeje - Tyuei9
+2026-03-22 22:07:52.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-22 22:07:52.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.12
+2026-03-22 22:07:52.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-03-22 22:07:53.347 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-22 22:07:53.347 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC01_Success_Get_Forecast
+2026-03-22 22:07:53.649 DEBUG testcase.TC01_Success_Get_Forecast       - 1: response = sendRequest(findTestObject("Object Repository/weather forecast/get_5_days_forecast"))
+2026-03-22 22:07:54.923 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_5_days_forecast_0.har
+2026-03-22 22:07:54.927 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:
+curl \
+  --location \
+  'https://api.openweathermap.org/data/2.5/forecast?lat=-6.2615&lon=106.8106&appid=aa9cecec70ccc07037dca6f0f96a8b9b&units=metric'
+2026-03-22 22:07:55.005 DEBUG testcase.TC01_Success_Get_Forecast       - 2: verifyResponseStatusCode(response, 200)
+2026-03-22 22:07:55.024 DEBUG testcase.TC01_Success_Get_Forecast       - 3: json = JsonSlurper().parseText(response.getResponseText())
+2026-03-22 22:07:55.054 DEBUG testcase.TC01_Success_Get_Forecast       - 4: assert list.size() == 40
+2026-03-22 22:07:55.065 DEBUG testcase.TC01_Success_Get_Forecast       - 5: validateJsonAgainstSchema(response, "{"type": "object", "required": ["list", "city"]}")
+2026-03-22 22:07:55.209 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC01_Success_Get_Forecast
+2026-03-22 22:07:55.214 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-22 22:07:55.214 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC02_Success_Get_Air_Pollution
+2026-03-22 22:07:55.273 DEBUG t.TC02_Success_Get_Air_Pollution         - 1: response = sendRequest(findTestObject("Object Repository/weather forecast/get_air_polution"))
+2026-03-22 22:07:55.542 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_air_polution_1.har
+2026-03-22 22:07:55.543 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:
+curl \
+  --location \
+  'https://api.openweathermap.org/data/2.5/air_pollution?lat=-6.2615&lon=106.8106&appid=aa9cecec70ccc07037dca6f0f96a8b9b'
+2026-03-22 22:07:55.548 DEBUG t.TC02_Success_Get_Air_Pollution         - 2: verifyResponseStatusCode(response, 200)
+2026-03-22 22:07:55.554 DEBUG t.TC02_Success_Get_Air_Pollution         - 3: json = JsonSlurper().parseText(response.getResponseText())
+2026-03-22 22:07:55.556 DEBUG t.TC02_Success_Get_Air_Pollution         - 4: aqi = aqi
+2026-03-22 22:07:55.564 DEBUG t.TC02_Success_Get_Air_Pollution         - 5: assert aqi >= 1 && aqi <= 5
+2026-03-22 22:07:55.566 DEBUG t.TC02_Success_Get_Air_Pollution         - 6: verifyElementPropertyValue(response, "coord.lat", -6.2615)
+2026-03-22 22:07:55.602 DEBUG t.TC02_Success_Get_Air_Pollution         - 7: verifyElementPropertyValue(response, "coord.lon", 106.8106)
+2026-03-22 22:07:55.628 DEBUG t.TC02_Success_Get_Air_Pollution         - 8: validateJsonAgainstSchema(response, "{"type": "object", "required": ["coord", "list"]}")
+2026-03-22 22:07:55.634 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC02_Success_Get_Air_Pollution
+2026-03-22 22:07:55.637 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-22 22:07:55.637 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC03_Failed_with_Invalid_API_Key
+2026-03-22 22:07:55.668 DEBUG t.TC03_Failed_with_Invalid_API_Key       - 1: response = sendRequest(findTestObject("Object Repository/weather forecast/get_weather_invalid_key"))
+2026-03-22 22:07:55.738 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_weath...lid_key_2.har
+2026-03-22 22:07:55.739 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:
+curl \
+  --location \
+  'https://api.openweathermap.org/data/2.5/forecast?lat=-6.2615&lon=106.8106&appid=ab9cecec70ccc07037dca6f0f96a8b9b&units=metric'
+2026-03-22 22:07:55.742 DEBUG t.TC03_Failed_with_Invalid_API_Key       - 2: verifyResponseStatusCode(response, 401)
+2026-03-22 22:07:55.746 DEBUG t.TC03_Failed_with_Invalid_API_Key       - 3: verifyElementPropertyValue(response, "message", "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.")
+2026-03-22 22:07:55.772 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC03_Failed_with_Invalid_API_Key
+2026-03-22 22:07:55.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-22 22:07:55.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC04_Failed_with_Invalid_Coordinates
+2026-03-22 22:07:55.808 DEBUG t.TC04_Failed_with_Invalid_Coordinates   - 1: response = sendRequest(findTestObject("Object Repository/weather forecast/get_weather_invalid_coor"))
+2026-03-22 22:07:55.896 INFO  c.k.k.core.webservice.common.HarLogger   - HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_weath...id_coor_3.har
+2026-03-22 22:07:55.897 INFO  c.k.k.core.webservice.common.HarLogger   - cURL Command:
+curl \
+  --location \
+  'https://api.openweathermap.org/data/2.5/forecast?lat=6789&lon=9192&appid=aa9cecec70ccc07037dca6f0f96a8b9b&units=metric'
+2026-03-22 22:07:55.899 DEBUG t.TC04_Failed_with_Invalid_Coordinates   - 2: verifyResponseStatusCode(response, 400)
+2026-03-22 22:07:55.904 DEBUG t.TC04_Failed_with_Invalid_Coordinates   - 3: verifyElementPropertyValue(response, "message", "wrong latitude")
+2026-03-22 22:07:55.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC04_Failed_with_Invalid_Coordinates
+2026-03-22 22:07:55.985 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-22 22:07:55.985 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_OpenWeather
+2026-03-22 22:07:55.985 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OpenWeather" time="3.057" tests="4" failures="0" errors="0">
+   <testsuite name="TS_OpenWeather" tests="4" failures="0" errors="0" time="3.057" skipped="0" timestamp="2026-03-22T15:07:52.869Z" hostname="jaeje - Tyuei9" id="Test Suites/TS_OpenWeather">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\jaeje\\Katalon Studio\\Air Polution South Jakarta\\Reports\\20260322_220747\\TS_OpenWeather\\20260322_220748"/>
+         <property name="logFiles" value="C:\\Users\\jaeje\\Katalon Studio\\Air Polution South Jakarta\\Reports\\20260322_220747\\TS_OpenWeather\\20260322_220748\\console0.log, C:\\Users\\jaeje\\Katalon Studio\\Air Polution South Jakarta\\Reports\\20260322_220747\\TS_OpenWeather\\20260322_220748\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Diah AR"/>
+         <property name="hostName" value="jaeje - Tyuei9"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="projectName" value="Air Polution South Jakarta"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+      </properties>
+      <testcase name="Test Cases/TC01_Success_Get_Forecast" time="1.862" classname="Test Cases/TC01_Success_Get_Forecast" status="PASSED">
+         <system-out><![CDATA[22-03-2026T22:07:53 - [TEST_CASE][PASSED] - Test Cases/TC01_Success_Get_Forecast: Test Cases/TC01_Success_Get_Forecast
+
+22-03-2026T22:07:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/weather forecast/get_5_days_forecast")): Send request successfully
+
+22-03-2026T22:07:54 - [MESSAGE][INFO] - HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_5_days_forecast_0.har
+
+22-03-2026T22:07:54 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  'https://api.openweathermap.org/data/2.5/forecast?lat=-6.2615&lon=106.8106&appid=aa9cecec70ccc07037dca6f0f96a8b9b&units=metric'
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Send request successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - json = JsonSlurper().parseText(response.getResponseText()): null
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - assert list.size() == 40: null
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - validateJsonAgainstSchema(response, "{"type": "object", "required": ["list", "city"]}"): Validate with JSON Schema successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Validate with JSON Schema successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Success_Get_Air_Pollution" time="0.42" classname="Test Cases/TC02_Success_Get_Air_Pollution" status="PASSED">
+         <system-out><![CDATA[22-03-2026T22:07:55 - [TEST_CASE][PASSED] - Test Cases/TC02_Success_Get_Air_Pollution: Test Cases/TC02_Success_Get_Air_Pollution
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/weather forecast/get_air_polution")): Send request successfully
+
+22-03-2026T22:07:55 - [MESSAGE][INFO] - HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_air_polution_1.har
+
+22-03-2026T22:07:55 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  'https://api.openweathermap.org/data/2.5/air_pollution?lat=-6.2615&lon=106.8106&appid=aa9cecec70ccc07037dca6f0f96a8b9b'
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Send request successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - json = JsonSlurper().parseText(response.getResponseText()): null
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - aqi = aqi: null
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - assert aqi >= 1 && aqi <= 5: null
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "coord.lat", -6.2615): Verify element property value successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "coord.lon", 106.8106): Verify element property value successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - validateJsonAgainstSchema(response, "{"type": "object", "required": ["coord", "list"]}"): Validate with JSON Schema successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Validate with JSON Schema successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03_Failed_with_Invalid_API_Key" time="0.135" classname="Test Cases/TC03_Failed_with_Invalid_API_Key" status="PASSED">
+         <system-out><![CDATA[22-03-2026T22:07:55 - [TEST_CASE][PASSED] - Test Cases/TC03_Failed_with_Invalid_API_Key: Test Cases/TC03_Failed_with_Invalid_API_Key
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/weather forecast/get_weather_invalid_key")): Send request successfully
+
+22-03-2026T22:07:55 - [MESSAGE][INFO] - HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_weath...lid_key_2.har
+
+22-03-2026T22:07:55 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  'https://api.openweathermap.org/data/2.5/forecast?lat=-6.2615&lon=106.8106&appid=ab9cecec70ccc07037dca6f0f96a8b9b&units=metric'
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Send request successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."): Verify element property value successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_Failed_with_Invalid_Coordinates" time="0.151" classname="Test Cases/TC04_Failed_with_Invalid_Coordinates" status="PASSED">
+         <system-out><![CDATA[22-03-2026T22:07:55 - [TEST_CASE][PASSED] - Test Cases/TC04_Failed_with_Invalid_Coordinates: Test Cases/TC04_Failed_with_Invalid_Coordinates
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/weather forecast/get_weather_invalid_coor")): Send request successfully
+
+22-03-2026T22:07:55 - [MESSAGE][INFO] - HAR: C:\Users\jaeje\Katalon Studio\Air Polution South Jakarta\Reports\20260322_220747\TS_OpenWeather\20260322_220748\requests\main\get_weath...id_coor_3.har
+
+22-03-2026T22:07:55 - [MESSAGE][INFO] - cURL Command:
+curl \
+  --location \
+  'https://api.openweathermap.org/data/2.5/forecast?lat=6789&lon=9192&appid=aa9cecec70ccc07037dca6f0f96a8b9b&units=metric'
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Send request successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+22-03-2026T22:07:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "wrong latitude"): Verify element property value successfully
+
+22-03-2026T22:07:55 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-03-2026T22:07:52 - [TEST_SUITE][PASSED] - TS_OpenWeather: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
