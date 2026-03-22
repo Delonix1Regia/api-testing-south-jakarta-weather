@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Failed_with_Invalid_API_Key</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33ba8d30-4dc1-42a5-b0ad-ac0e08cc343b</testCaseGuid>
+</TestCaseEntity>

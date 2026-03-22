@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Failed_with_Invalid_Coordinates</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>685131fe-e5c1-4b88-86ba-7612fecc9bc1</testCaseGuid>
+</TestCaseEntity>
